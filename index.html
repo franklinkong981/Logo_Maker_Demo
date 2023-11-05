@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logo Maker Demo</title>
+    </head>
+    <body>
+        <h1>Logo Builder</h1>
+        <p>Make Your Logo Here!</p>
+        <form id="logo-form">
+            <p>
+                <label for="name-input">Enter a brand name:</label>
+                <input type="text" id="name-input" name="brand-name" placeholder="brand name"><br>
+                <label for="color-input">Choose a color:</label>
+                <input type="color" id="color-input" name="color"><br>
+                <label for="font-size-input">Select a font size:</label>
+                <input type="range" id="font-size-input" name="font-size" min="10" max="200"><br>
+                <input type="Submit">
+            </p>
+            <section id="results">
+
+            </section>
+        </form>
+        <script src="app.js"></script>
+    </body>
+</html>
